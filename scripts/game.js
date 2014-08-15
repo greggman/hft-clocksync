@@ -53,9 +53,7 @@ requirejs(
     netPlayer.addEventListener('disconnect', noop);
   };
 
-  var server = new GameServer({
-    gameId: "clocksync",
-  });
+  var server = new GameServer();
   server.addEventListener('playerconnect', setupPlayer);
   GameSupport.init(server, globals);
 

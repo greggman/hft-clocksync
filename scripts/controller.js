@@ -50,11 +50,7 @@ requirejs(
   Misc.applyUrlSettings(globals);
   MobileHacks.fixHeightHack();
 
-  // NOTE: You don't actually need a gameclient to sync the clock
-  // but you can't tell the game has disconnected otherwise.
-  var client = new GameClient({
-    gameId: "clocksync",
-  });
+  var client = new GameClient();
   CommonUI.setupStandardControllerUI(client, {});
   ClockSyncImpl();
 });
