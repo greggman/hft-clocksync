@@ -1,14 +1,14 @@
 {
-  "name": "ClockSync",
-  "description": "Sample that shows a sycned clock",
-  "version": "0.0.4",
-  "private": false,
   "dependencies": {},
+  "description": "Sample that shows a sycned clock",
   "happyFunTimes": {
-    "gameId": "clocksync",
+    "apiVersion": "1.9.0",
     "category": "example",
-    "apiVersion": "1.0.0",
+    "gameId": "clocksync",
     "gameType": "html",
     "minPlayers": 1
-  }
+  },
+  "name": "ClockSync",
+  "private": false,
+  "version": "0.0.4"
 }
